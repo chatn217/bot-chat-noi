@@ -3,7 +3,7 @@ const Bot = new Discord.Client();
 const fs = require("fs");
 var prefix = "/";
 const bdd = require("./bdd.json")
-const token = require('./config.json')
+
 
 
 
@@ -29,7 +29,7 @@ function Savebdd() {
 
 
 
-Bot.login(token.token);
+Bot.login('NzU1NDE2MTA5Njc0Mzk3Nzgw.X2C-Ew.vNyUhEouv8A7vbrOCRNbcBNJ_Jk');
 
 Bot.on('message', message => {
     if (message.content.startsWith( prefix + 'help')) {
